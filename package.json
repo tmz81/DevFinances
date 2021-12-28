@@ -2,9 +2,9 @@
   "name": "maratona-discover",
   "version": "1.0.0",
   "description": "<h1 align=\"center\">   <img alt=\"dev.finances\" title=\"dev.finances\" src=\".github/logo.svg\" width=\"220px\" /> </h1>",
-  "main": "scripts.js",
+  "main": "src/server.js",
   "scripts": {
-    "start": "node src/server.js"
+    "start": "nodemon ."
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
   "homepage": "https://github.com/tmz81/Maratona-Discover#readme",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
